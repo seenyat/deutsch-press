@@ -69,7 +69,10 @@ const Presentation = () => {
   };
 
   return (
-    <div class="h-full font-['Century751_BT'] w-full bg-red-200">
+    <div
+      onClick={nextSlide}
+      class="h-full font-['Century751_BT'] w-full bg-red-200"
+    >
       <div
         class="flex flex-col z-10 items-center justify-start pt-24  h-screen w-full bg-cover bg-center p-8 text-center relative"
         style={{
